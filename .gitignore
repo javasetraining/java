@@ -1,0 +1,10 @@
+# ignored for autotests
+*/junit-results/
+*/logs/
+*/bin/
+*/target/
+*/screenshots/
+*/*.properties
+*/*.iml
+*/.idea
+/.idea
