@@ -24,7 +24,6 @@ public class Pix {
         System.out.println("avea greutatea "+greutate);
     }
 
-
     public void setCuloare(String culoareNoua){
         culoare=culoareNoua;
     }
