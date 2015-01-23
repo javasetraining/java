@@ -1,19 +1,18 @@
 package DemoJavaBasics;
 
-/**
- * Created by iucosoft7 on 1/21/15.
- */
 public class Car {
 
     private int wheelsNumber;
     private int putereaMotorului;
-    private int carNr;
+    private int carCost;
 
     public Car(int wheelsNumber, int putereaMotorului, int carNr) {
         this.wheelsNumber = wheelsNumber;
         this.putereaMotorului = putereaMotorului;
-        this.carNr = carNr;
+        this.carCost = carNr;
     }
+
+
 
     public int getWheelsNumber() {
         return wheelsNumber;
@@ -32,19 +31,19 @@ public class Car {
     }
 
     public int getCarNr() {
-        return carNr;
+        return carCost;
     }
 
-    public void setCarNr(int carNr) {
-        this.carNr = carNr;
+    public void setCarCost(int carNr) {
+        this.carCost = carNr;
     }
-
+//
     @Override
     public String toString() {
         return "Car{" +
                 "wheelsNumber=" + wheelsNumber +
                 ", putereaMotorului=" + putereaMotorului +
-                ", carNr=" + carNr +
+                ", carCost=" + carCost +
                 '}';
     }
 }
