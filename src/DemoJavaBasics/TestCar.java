@@ -26,5 +26,9 @@ public class TestCar {
         ferary.setCarCost(70000);
         System.out.println("Ferary arter reparation"+ferary.toString());
 
+
+        System.out.println(dacia.getWheelsNumber());
+        System.out.println(dacia.getPutereaMotorului());
+        System.out.println(dacia.getCarNr());
     }
 }
